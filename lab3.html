@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>ToDoList - Zwijacz</title>
+    </head>
+    <body>
+        <header>
+            <h1>TO DO LIST!</h1>
+            <input type="search" id="searchBar" placeholder="Wyszukaj..." onkeyup="searchFunction();">
+        </header>
+        <section>
+            <ul></ul>
+
+            <table id="todoTable">
+                <tr>
+                    <th>Zadania</th>
+                    <th>Data</th>
+                    <th>Usun</th>
+                </tr>
+            </table>
+        </section>
+        <footer>
+            <input type="text" id="taskText" placeholder="Dodaj zadanie">
+            <input type="date" id="taskDate">
+            <button id="addButton">Dodaj</button>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
